@@ -16,10 +16,41 @@ body {
 }
 .joystick-container {
   margin: 0px;
-  height: 27vh;
+  height: 24vh;
+}
+.joystick-centre {
+  position: relative;
+  margin: 0;
+  height: 24vh;
+}
+.joystick-top-text {
+  position: absolute;
+  right: 47%;
+  top: -5%;
+}
+.joystick-side-text {
+  position: absolute;
+  left: -4%;
+  top: 37%;
+}
+
+.joystickz-top-text {
+  position: absolute;
+  left: 46%;
+  top: -10%;
+}
+.joystickz-side-text {
+  position: absolute;
+  left: 70%;
+  top: 35%;
+}
+.joystick-text {
+  font-size: 20px;
+  color: grey;
 }
 .logo {
   height: 15vh;
+  margin-bottom: 30px;
 }
 .logo-holder {
   background-image: url("./Images/final logo.png");
@@ -48,4 +79,9 @@ body {
 
 .slider-holder {
   position: relative;
+}
+
+.control-panel {
+  width: 104%;
+  margin: -2%;
 }

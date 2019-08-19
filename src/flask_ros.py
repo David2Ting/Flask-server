@@ -32,7 +32,7 @@ def drive_cmd(message):
 @app.route('/') #Routes the home director to 
 def home():
 
-    return render_template('index.html') #Uses the pre-made frontend
+    return render_template('indexArm.html') #Uses the pre-made frontend
 
 
 if __name__ == '__main__':
