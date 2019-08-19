@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <package format="2">
-  <name>nova_common</name>
+  <name>Flask_server</name>
   <version>0.0.0</version>
   <description>The nova_common package</description>
 
