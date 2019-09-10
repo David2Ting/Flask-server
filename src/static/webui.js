@@ -11,7 +11,7 @@ var RPM = 0.0;
 var turn = 0.0;
 var turn_range = 0.5;
 var speed_range = 0.2;
-var socket = io.connect('http://127.0.0.1:5000')
+var socket = io.connect('http://118.138.49.214:5000')
 function moveAction() {
     var rpm = Math.floor(RPM * 100);
     var steer_pct = turn * 20;
